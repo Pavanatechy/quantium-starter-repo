@@ -108,4 +108,5 @@ def update_chart(selected_region):
     return fig
 
 # Run app
-app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=False)
